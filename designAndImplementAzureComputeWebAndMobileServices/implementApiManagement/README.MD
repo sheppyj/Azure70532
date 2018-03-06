@@ -42,7 +42,7 @@ up to 4 scale units
 1 GB cache
 
 2.5 max requests per second
-###### Premium
+#### Premium
 99.5% SLA
 
 AAD integration
