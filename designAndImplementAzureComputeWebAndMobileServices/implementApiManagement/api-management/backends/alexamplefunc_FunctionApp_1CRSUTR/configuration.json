@@ -1,0 +1,9 @@
+{
+  "id": "/backends/FunctionApp_alexamplefunc",
+  "title": "alexamplefunc",
+  "description": "alexamplefunc",
+  "url": "https://alexamplefunc.azurewebsites.net/",
+  "protocol": "http",
+  "resourceId": "https://management.azure.com/subscriptions/1ad3b9b8-766b-4643-ba7c-2b73b8712596/resourceGroups/70532FunctionApp/providers/Microsoft.Web/sites/alexamplefunc",
+  "__GitModuleVersion": 13
+}

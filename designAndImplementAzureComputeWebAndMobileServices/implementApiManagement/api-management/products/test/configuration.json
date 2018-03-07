@@ -1,0 +1,15 @@
+{
+  "id": "/products/5a9fb9f2db9d921288d70834",
+  "name": "test",
+  "$ref-description": "api-management/products/test/product.description.html",
+  "terms": null,
+  "subscriptionRequired": true,
+  "approvalRequired": false,
+  "subscriptionsLimit": 1,
+  "state": "notPublished",
+  "$refs-groups": [
+    "api-management/groups/Administrators/configuration.json"
+  ],
+  "$refs-apis": [],
+  "__GitModuleVersion": 13
+}

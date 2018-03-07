@@ -1,0 +1,80 @@
+{
+  "id": "/apis/alexamplefunc.azurewebsites.net",
+  "name": "alexamplefunc.azurewebsites.net",
+  "apiRevision": "1",
+  "$ref-description": null,
+  "serviceUrl": "https://alexamplefunc.azurewebsites.net/",
+  "path": "",
+  "protocols": [
+    "http",
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/alexamplefunc.azurewebsites.net/operations/5a9ea9d0db9d920e042cb23d",
+      "name": "/api/HelloWorld/get",
+      "method": "GET",
+      "urlTemplate": "/api/HelloWorld",
+      "templateParameters": [],
+      "$ref-description": "api-management/apis/alexamplefunc.azurewebsiteAC0ATU/operations/_api_HelloWorld_get.description.html",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/alexamplefunc.azurewebsiteAC0ATU/operations/_api_HelloWorld_get.response.200.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/alexamplefunc.azurewebsiteAC0ATU/operations/_api_HelloWorld_get.xml"
+    },
+    {
+      "id": "/apis/alexamplefunc.azurewebsites.net/operations/5a9ea9d0db9d920e042cb23e",
+      "name": "/api/HelloWorld/post",
+      "method": "POST",
+      "urlTemplate": "/api/HelloWorld",
+      "templateParameters": [],
+      "$ref-description": "api-management/apis/alexamplefunc.azurewebsiteAC0ATU/operations/_api_HelloWorld_post.description.html",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/alexamplefunc.azurewebsiteAC0ATU/operations/_api_HelloWorld_post.response.200.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/alexamplefunc.azurewebsiteAC0ATU/operations/_api_HelloWorld_post.xml"
+    }
+  ],
+  "apiSchemas": [
+    {
+      "id": "/apis/alexamplefunc.azurewebsites.net/schemas/5a9ea9cedb9d920e042cb23c",
+      "contentType": "application/vnd.ms-azure-apim.swagger.definitions+json",
+      "$ref-documentValue": "api-management/apis/alexamplefunc.azurewebsiteAC0ATU/apiSchemas/5a9ea9cedb9d920e042cb23c.document"
+    }
+  ],
+  "$ref-policy": "api-management/policies/apis/alexamplefunc.azurewebsiteAC0ATU.xml",
+  "__GitModuleVersion": 13
+}
